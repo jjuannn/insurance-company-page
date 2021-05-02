@@ -71,14 +71,12 @@ const ImgIcon = styled.img`
 export default function About() {
   return (
     <StyledSection>
-      <div>
-        <Title>About Us</Title>
-        <SubTitle>
-          Founded in 1990 by Juan Avero,
-          <br /> the company never stopped growing until we became # 1 in
-          Argentina
-        </SubTitle>
-      </div>
+      <Title>About Us</Title>
+      <SubTitle>
+        Founded in 1990 by Juan Avero,
+        <br /> the company never stopped growing until we became # 1 in
+        Argentina
+      </SubTitle>
       <CardsContainer>
         <div>
           <AboutCard>
@@ -90,10 +88,10 @@ export default function About() {
             </p>
           </AboutCard>
           <AboutCard>
-            <CardTitle>Join us at a very low price!</CardTitle>
+            <CardTitle>We make history!</CardTitle>
             <p>
-              For only $100 a month, you can get our services and not worry
-              about any problems you may have. Just enjoy, we will do the rest
+              Avero Insurance reached a +30.000m U$D market value, transforming
+              ourselves into the biggest argentine company ever created.
             </p>
           </AboutCard>
         </div>
